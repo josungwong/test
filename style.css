@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+.main-img{
+    width: 132px;
+    height: 45px;
+    position: relative;
+    left: 5px;
+    top: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+header span{
+    margin: 28px 17px;
+    font-weight: bold;
+}
+.no:hover{
+    color: white;
+}
+.green:hover{
+    color: #1ed760;
+}
+
+
+section{
+    height: 968px;
+    background-color: rgb(41, 65, 171);;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 150%;
+    background-position: -400px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-title{
+    height: 65vh;
+    color: #1ed760;
+    font-size: 146px;
+    
+}
+.cnt1{
+    position: relative;
+    left: -2em;
+}
+.cnt2{
+    position: relative;
+    left: 2em;
+}
+.center-L{
+    position: absolute;
+    top: 700px;
+    color: #1ed760;
+    font-size: 18px;
+}
+.center-button{
+    position: absolute;
+    top: 770px;
+    color: #2941ab;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 500px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.center-button:hover{
+    transform: scale(1.1);
+    background-color: #5cdf8a;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 1200px;
+    height: 400px;
+}
+.ft-s{
+    color: rgb(144, 144, 144);
+    font-size: 18px;
+    font-weight: bold;
+}
+.ft-s>span{
+    margin: 5px 20px;
+}
+.ft-s>p {
+    position: relative;
+    left: 130px;
+    width: 500px;
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-around;
+}
+p>span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+p>span>span:hover{
+    color: #1ed760;
+}
+.icon{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 1150px;
+    left: 80vw;
+    transform: scale(2);
+    display: flex;
+    justify-content: space-between;
+}
+.icon i{
+    color: white;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 30px;
+    height: 30px;
+    background-color: #3a3a3a;
+    padding: 15px auto;
+    border-radius: 100px;
+}
+.under{
+    color: #767676;
+}
+.under i {
+    position: absolute;
+    top: 1500px;
+    right: 100px;
+    transform: scale(0.8);
+}
+.under>.SS{
+    position: absolute;
+    top: 1520px;
+    width: 850px;
+    left: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.under>span>span:hover{
+    color: #1ed760;
+}
+.AB{
+    position: absolute;
+    top: 1520px;
+    right: 105px;
+}
